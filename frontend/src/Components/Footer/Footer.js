@@ -8,6 +8,8 @@ import Youtube from "../../Images/Youtube.png";
 import Linkedin from "../../Images/Linkedin.png";
 import Copyright from "../../Images/Copyright.png";
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
         <div className={styles.container}>
@@ -15,12 +17,32 @@ const Footer = () => {
             <div className={styles.social_container}>
                 <h2>Socials</h2>
                 <div className={styles.social_img}>
-                    <img src={Facebook} alt="" />
-                    <img src={Instagram} alt="" />
-                    <img src={Linkedin} alt="" />
-                    <img src={Twitter} alt="" />
-                    <img src={Github} alt="" />
-                    <img src={Youtube} alt="" />
+                    <a href="https://facebook.com/codechefvit" target="_blank">
+                        <img src={Facebook} alt="" />
+                    </a>
+
+                    <a href="https://instagram/codechefvit" target="_blank">
+                        <img src={Instagram} alt="" />
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/company/codechef-vit-chapter/mycompany/"
+                        target="_blank"
+                    >
+                        <img src={Linkedin} alt="" />
+                    </a>
+
+                    <a href="https://twitter.com/codechefvit" target="_blank">
+                        <img src={Twitter} alt="" />
+                    </a>
+
+                    <a href="https://github.com/codechefvit" target="_blank">
+                        <img src={Github} alt="" />
+                    </a>
+
+                    <a href="https://youtube.com/codechefvit" target="_blank">
+                        <img src={Youtube} alt="" />
+                    </a>
                 </div>
             </div>
             <div className={styles.social_container}>
@@ -28,10 +50,10 @@ const Footer = () => {
                 <div className={styles.nav_container}>
                     <ul>
                         <li>
-                            <a href="">About</a>
-                            <a href="">Timer</a>
-                            <a href="">Speakers</a>
-                            <a href="">Watch</a>
+                            <a href="#about">About</a>
+                            <a href="#timer">Timer</a>
+                            <a href="#speakers">Speakers</a>
+                            <a href="/">Watch</a>
                         </li>
                     </ul>
                 </div>

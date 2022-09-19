@@ -20,7 +20,7 @@ const EventSection = () => {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="timer">
             <h1>EVENT STARTS IN</h1>
             <div className={styles.boxes_container}>
                 <div className={styles.box_sub_container}>
