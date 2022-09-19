@@ -16,7 +16,7 @@ const Speakers = () => {
     // console.log(images);
 
     return (
-        <div className={styles.main_container}>
+        <div className={styles.main_container} id="speakers">
             <img src={Banner} alt="Banner Image" />
 
             <div className={styles.banner_bg}></div>

@@ -3,19 +3,19 @@ import TechTalksLogo from "../../Images/TechTalks.png";
 import HeroImage from "../../Images/HeroImage.png";
 const Landing = () => {
     return (
-        <div className={styles.main_container}>
+        <div className={styles.main_container} id="Hero">
             <nav className={styles.navbar_container}>
                 <img src={TechTalksLogo} alt="TechTalksLogo" />
                 <div className={styles.navbar_list_container}>
                     <ul>
                         <li>
-                            <a href="">About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li>
-                            <a href="">Speakers</a>
+                            <a href="#speakers">Speakers</a>
                         </li>
-                        <li>
-                            <a href="">Watch Now!</a>
+                        <li className={styles.Watch_now}>
+                            <a href="/">Watch Now!</a>
                         </li>
                     </ul>
                 </div>
