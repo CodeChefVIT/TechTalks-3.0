@@ -1,11 +1,14 @@
 .main_container {
     height: 100vh;
+    position: relative;
 }
 
 .main_container::before {
     content: "";
     position: absolute;
-    background-color: #f8b91d;
+    bottom: 0;
+    top: 0;
+    background: #f8b91d no-repeat;
     height: 100vh;
     width: 100vw;
     z-index: -2;
@@ -16,6 +19,7 @@
     justify-content: space-between;
     height: 10vh;
     border-bottom: 1px solid #111;
+    border-top: 1px solid #111;
     position: relative;
 }
 
@@ -69,6 +73,7 @@
     position: absolute;
     z-index: -1;
     right: 0;
+    transform: translateX(15%);
     bottom: 0;
     width: auto;
     height: 95%;
