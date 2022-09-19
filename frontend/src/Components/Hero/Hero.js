@@ -14,7 +14,7 @@ const Landing = () => {
                         <li>
                             <a href="#speakers">Speakers</a>
                         </li>
-                        <li>
+                        <li className={styles.Watch_now}>
                             <a href="/">Watch Now!</a>
                         </li>
                     </ul>

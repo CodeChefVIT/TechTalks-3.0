@@ -26,3 +26,10 @@ code {
 html {
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: "mudclaw";
+    src: local("Mudclaw"),
+        url("../src/assets/Mudclaw/MUDCLAW.ttf") format("truetype");
+    font-weight: bold;
+}
