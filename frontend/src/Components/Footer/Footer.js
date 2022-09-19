@@ -1,23 +1,42 @@
 import styles from "./Footer.module.css";
-// import FooterImage from "../../Images/About.png";
+import CodechefLogo from "../../Images/CodechefLogo.png";
+import Instagram from "../../Images/Instagram.png";
+import Facebook from "../../Images/Facebook.png";
+import Twitter from "../../Images/Twitter.png";
+import Github from "../../Images/Github.png";
+import Youtube from "../../Images/Youtube.png";
+import Linkedin from "../../Images/Linkedin.png";
+import Copyright from "../../Images/Copyright.png";
 
 const Footer = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.title_heading_container}>
-                <h2>What’s tech Talks?</h2>
-                <p>
-                    Tech talks is an offline round table discussion that
-                    promises an insight into the lives and careers of leading
-                    figures in the industry. Talking about emerging
-                    technologies, this is not just any guest lecture, but an
-                    interactive session providing students with a broader
-                    perspective on each domain covered. With speakers from
-                    different domains, blending perfectly together, we hope to
-                    surpass the success achieved in Tech talks 2.0.
-                </p>
+            <img src={CodechefLogo} alt="" />
+            <div className={styles.social_container}>
+                <h2>Socials</h2>
+                <div className={styles.social_img}>
+                    <img src={Facebook} alt="" />
+                    <img src={Instagram} alt="" />
+                    <img src={Linkedin} alt="" />
+                    <img src={Twitter} alt="" />
+                    <img src={Github} alt="" />
+                    <img src={Youtube} alt="" />
+                </div>
             </div>
-            {/* <img src={AboutImage} alt="About Image here" /> */}
+            <div className={styles.social_container}>
+                <h2>Navigation</h2>
+                <div className={styles.nav_container}>
+                    <ul>
+                        <li>
+                            <a href="">About</a>
+                            <a href="">Timer</a>
+                            <a href="">Speakers</a>
+                            <a href="">Watch</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img className={styles.copyright} src={Copyright} alt="" />
         </div>
     );
 };

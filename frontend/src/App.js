@@ -12,6 +12,7 @@ function App() {
             <About />
             <Speakers />
             <EventSection />
+            <Footer />
         </div>
     );
 }
