@@ -31,12 +31,13 @@ const Landing = () => {
                     <div className={styles.title_heading_container}>
                         <h1>Tech Talks</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat.{" "}
+                            The modern knights of the round table are here to
+                            enlighten you with their wisdom and present you with
+                            enlightening discussions about upcoming (futuristic)
+                            technologies. Come join us and become a knight
+                            armoured with the knowledge of the future!{" "}
                         </p>
+                        <h3>Event Location : Dr. Ambedkar TT</h3>
                     </div>
                     <a
                         href="https://ccvit.club/graVITasRegistration"

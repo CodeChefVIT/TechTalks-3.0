@@ -21,7 +21,7 @@ const EventSection = () => {
 
     return (
         <div className={styles.container} id="timer">
-            <h1>EVENT STARTS IN</h1>
+            <h1>Event starts in</h1>
             <div className={styles.boxes_container}>
                 <div className={styles.box_sub_container}>
                     <div className={styles.box1}>

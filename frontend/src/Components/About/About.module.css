@@ -17,7 +17,8 @@
     gap: 2em;
 }
 
-.title_heading_container > h2 {
+.title_heading_container > h1 {
+    font-weight: 600;
     font-family: "mudclaw";
 }
 

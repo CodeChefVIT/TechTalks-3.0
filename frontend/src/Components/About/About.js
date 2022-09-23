@@ -1,11 +1,11 @@
 import styles from "./About.module.css";
-import AboutImage from "../../Images/About.png";
+import AboutImage from "../../Images/About.svg";
 
 const About = () => {
     return (
         <div className={styles.container} id="about">
             <div className={styles.title_heading_container}>
-                <h2>What’s tech Talks?</h2>
+                <h1>What’s tech Talks?</h1>
                 <p>
                     Tech talks is an offline round table discussion that
                     promises an insight into the lives and careers of leading
