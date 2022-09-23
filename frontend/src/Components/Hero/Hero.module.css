@@ -34,6 +34,7 @@
 
 .navbar_container > img {
     width: auto;
+    background-color: #39dbff;
 }
 
 .navbar_list_container > ul {
@@ -94,6 +95,8 @@
     border-radius: 0;
     background-color: #82d965;
     font-weight: 800;
+    outline: 2px solid black;
+    border: 0;
 }
 
 .title_heading_container {
@@ -117,6 +120,7 @@
 
 .Watch_now {
     text-align: center;
+    background-color: #39dbff;
 }
 
 @media only screen and (max-width: 950px) {
