@@ -107,14 +107,28 @@
 
 .box_main_container > p {
     text-align: center;
-    width: 95%;
+    width: 99%;
     color: black;
 }
 
 .box_main_container h1 {
     text-align: center;
-    font-size: 1.5em;
-    color: black;
+    font-size: 1.25em;
+    color: rgb(0, 0, 0);
+}
+
+.title_link_image {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: center;
+    position: relative;
+}
+
+.title_link_image > a {
+    position: absolute;
+    right: 0;
+    transform: translateX(16px);
 }
 
 .box {
@@ -133,19 +147,6 @@
     color: #111;
     font-weight: 800;
     font-family: "mudclaw";
-}
-
-.box:nth-child(2) {
-    box-shadow: 8px 8px 0px #bc7100;
-}
-.box:nth-child(1) {
-    box-shadow: 8px 8px 0px #023671;
-}
-.box:nth-child(3) {
-    box-shadow: 8px 8px 0px #be00ff;
-}
-.box:nth-child(4) {
-    box-shadow: 8px 8px 0px white;
 }
 
 .box img,
