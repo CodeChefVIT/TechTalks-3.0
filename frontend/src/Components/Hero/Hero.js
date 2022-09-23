@@ -15,7 +15,12 @@ const Landing = () => {
                             <a href="#speakers">Speakers</a>
                         </li>
                         <li className={styles.Watch_now}>
-                            <a href="/">Watch Now!</a>
+                            <a
+                                href="https://ccvit.club/graVITasRegistration"
+                                target="_blank"
+                            >
+                                Watch Now!
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -33,7 +38,12 @@ const Landing = () => {
                             ex ea commodo consequat.{" "}
                         </p>
                     </div>
-                    <button>Register Now!</button>
+                    <a
+                        href="https://ccvit.club/graVITasRegistration"
+                        target="_blank"
+                    >
+                        <button>Register Now!</button>
+                    </a>{" "}
                 </div>
                 <img src={HeroImage} alt="HeroImage" />
             </div>

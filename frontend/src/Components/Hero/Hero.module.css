@@ -88,7 +88,7 @@
     width: 70%;
 }
 
-.content_container > button {
+.content_container button {
     width: fit-content;
     padding: 1em 2em;
     box-shadow: 4px 4px 0px #111;

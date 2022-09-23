@@ -47,7 +47,9 @@ const EventSection = () => {
 
             <img src={EventBg} alt="About Image here" />
 
-            <button>Watch Now!</button>
+            <a href="https://ccvit.club/graVITasRegistration" target="_blank">
+                <button>Watch Now!</button>
+            </a>
         </div>
     );
 };
