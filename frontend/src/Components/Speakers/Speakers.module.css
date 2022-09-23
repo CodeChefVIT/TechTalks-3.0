@@ -71,7 +71,7 @@
     box-shadow: 8px 8px 0px black;
     padding: 2em 1em 1em 1em;
     justify-content: center;
-    gap: 1em;
+    gap: 0.5rem;
     position: relative;
 }
 
@@ -107,12 +107,13 @@
 
 .box_main_container > p {
     text-align: center;
-    width: 80%;
+    width: 95%;
     color: black;
 }
 
-.box_main_container > h1 {
+.box_main_container h1 {
     text-align: center;
+    font-size: 1.5em;
     color: black;
 }
 
