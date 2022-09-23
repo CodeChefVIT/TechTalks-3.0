@@ -1,12 +1,12 @@
 import styles from "./Footer.module.css";
-import CodechefLogo from "../../Images/CodechefLogo.png";
-import Instagram from "../../Images/Instagram.png";
-import Facebook from "../../Images/Facebook.png";
-import Twitter from "../../Images/Twitter.png";
-import Github from "../../Images/Github.png";
-import Youtube from "../../Images/Youtube.png";
-import Linkedin from "../../Images/Linkedin.png";
-import Copyright from "../../Images/Copyright.png";
+import CodechefLogo from "../../Images/CodechefLogo.svg";
+import Instagram from "../../Images/instagram.svg";
+import Facebook from "../../Images/facebook.svg";
+import Twitter from "../../Images/twitter.svg";
+import Github from "../../Images/github.svg";
+import Youtube from "../../Images/youtube.svg";
+import Linkedin from "../../Images/linkedin.svg";
+import Copyright from "../../Images/Copyright.svg";
 
 import { Link } from "react-router-dom";
 
@@ -21,7 +21,10 @@ const Footer = () => {
                         <img src={Facebook} alt="" />
                     </a>
 
-                    <a href="https://instagram/codechefvit" target="_blank">
+                    <a
+                        href="https://www.instagram.com/codechefvit/?igshid=YmMyMTA2M2Y%3D"
+                        target="_blank"
+                    >
                         <img src={Instagram} alt="" />
                     </a>
 
@@ -53,7 +56,12 @@ const Footer = () => {
                             <a href="#about">About</a>
                             <a href="#timer">Timer</a>
                             <a href="#speakers">Speakers</a>
-                            <a href="/">Watch</a>
+                            <a
+                                href="https://ccvit.club/graVITasRegistration"
+                                target="_blank"
+                            >
+                                Watch
+                            </a>
                         </li>
                     </ul>
                 </div>

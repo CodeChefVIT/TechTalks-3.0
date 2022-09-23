@@ -1,10 +1,10 @@
 import styles from "./Speakers.module.css";
-import Banner from "../../Images/SpeakersBanner.png";
+import Banner from "../../Images/SpeakersBanner.svg";
 import SampleImage1 from "../../Images/Speaker1.png";
 import SampleImage2 from "../../Images/Speaker2.png";
 import SampleImage3 from "../../Images/Speaker3.png";
 import SampleImage4 from "../../Images/Speaker4.png";
-import Linkedin from "../../Images/Linkedin.png";
+
 import Link from "../../Images/Link.svg";
 
 import { useState } from "react";
