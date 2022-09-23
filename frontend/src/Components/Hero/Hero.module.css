@@ -182,8 +182,7 @@
 
     .navbar_list_container > ul > li {
         display: flex;
-        padding-left: 3em;
-        padding-right: 3em;
+
         border-left: 0px solid;
         border-right: 1px solid;
     }
@@ -201,5 +200,11 @@
     .title_heading_container > p {
         text-align: center;
         width: 99%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .navbar_list_container > ul > li > a {
+        font-size: 16px;
     }
 }
