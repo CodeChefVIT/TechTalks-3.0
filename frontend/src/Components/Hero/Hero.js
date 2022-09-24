@@ -16,8 +16,9 @@ const Landing = () => {
                         </li>
                         <li className={styles.Watch_now}>
                             <a
-                                href="https://ccvit.club/graVITasRegistration"
                                 target="_blank"
+                                href="https://www.youtube.com/c/CodeChefVIT"
+                                rel="noreferrer"
                             >
                                 Watch Now!
                             </a>

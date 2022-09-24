@@ -57,7 +57,7 @@ const Footer = () => {
                             <a href="#timer">Timer</a>
                             <a href="#speakers">Speakers</a>
                             <a
-                                href="https://ccvit.club/graVITasRegistration"
+                                href="https://www.youtube.com/c/CodeChefVIT"
                                 target="_blank"
                             >
                                 Watch
