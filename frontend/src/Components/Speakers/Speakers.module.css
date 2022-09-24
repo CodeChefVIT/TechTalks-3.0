@@ -8,7 +8,7 @@
 .main_container > img {
     position: absolute;
     top: 0;
-    transform: translateY(-40%);
+    transform: translateY(-20%);
     width: 100%;
     align-self: center;
 }
