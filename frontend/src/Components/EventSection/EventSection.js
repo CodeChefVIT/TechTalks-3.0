@@ -47,7 +47,7 @@ const EventSection = () => {
 
             <img src={EventBg} alt="About Image here" />
 
-            <a href="https://ccvit.club/graVITasRegistration" target="_blank">
+            <a href="https://www.youtube.com/c/CodeChefVIT" target="_blank">
                 <button>Watch Now!</button>
             </a>
         </div>
