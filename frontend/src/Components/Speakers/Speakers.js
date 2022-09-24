@@ -4,6 +4,7 @@ import SampleImage1 from "../../Images/Speaker1.png";
 import SampleImage2 from "../../Images/Speaker2.png";
 import SampleImage3 from "../../Images/Speaker3.png";
 import SampleImage4 from "../../Images/Speaker4.png";
+import SampleImage5 from "../../Images/Speaker5.png";
 
 import Link from "../../Images/Link.svg";
 
@@ -50,7 +51,7 @@ const Speakers = () => {
                     </div>
                     <div
                         className={styles.box}
-                        style={{ boxShadow: "8px 8px 0px #675943" }}
+                        style={{ boxShadow: "8px 8px 0px black" }}
                         onClick={() => (
                             setTitle("Akhil Sharma"),
                             setDesc(
@@ -63,7 +64,7 @@ const Speakers = () => {
                     </div>
                     <div
                         className={styles.box}
-                        style={{ boxShadow: "8px 8px 0px #023671" }}
+                        style={{ boxShadow: "8px 8px 0px black" }}
                         onClick={() => (
                             setTitle("Pravin Hungund"),
                             setDesc(
@@ -78,7 +79,7 @@ const Speakers = () => {
                 <div className={styles.container_row_2}>
                     <div
                         className={styles.box}
-                        style={{ boxShadow: "8px 8px 0px #632301" }}
+                        style={{ boxShadow: "8px 8px 0px black" }}
                         onClick={() => (
                             setTitle("Gautam Sampathkumar"),
                             setDesc(
@@ -91,7 +92,7 @@ const Speakers = () => {
                     </div>
                     <div
                         className={styles.box}
-                        style={{ boxShadow: "8px 8px 0px rgb(87, 2, 116)" }}
+                        style={{ boxShadow: "8px 8px 0px black" }}
                         onClick={() => (
                             setTitle("Ami Sampath"),
                             setDesc(
@@ -102,17 +103,19 @@ const Speakers = () => {
                     >
                         <img src={SampleImage4} alt="" />
                     </div>
-                    {/* <div
+                    <div
                         className={styles.box}
+                        style={{ boxShadow: "8px 8px 0px black" }}
                         onClick={() => (
-                            setTitle("African Prince Dhaval"),
+                            setTitle("Gurpreet Singh"),
                             setDesc(
-                                "Boht achha padhta hai, editorial give some content :("
-                            )
+                                "Technology Leader with deep hands-on experience, and passion for building software with delightful customer experience, co-founder of Delhi-NCR Java User Group. He is passionate about building large enterprise, cloud scale, and customer centric software."
+                            ),
+                            setUrl("https://www.linkedin.com/in/gurpreets")
                         )}
                     >
-                        <img src={SampleImage4} alt="" />
-                    </div> */}
+                        <img src={SampleImage5} alt="" />
+                    </div>
                 </div>
             </div>
         </div>
