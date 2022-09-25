@@ -23,7 +23,9 @@ const EventSection = () => {
         <div className={styles.container} id="timer">
             <h1>Event starts in</h1>
             <div className={styles.boxes_container}>
-                <div className={styles.box_sub_container}>
+                <h2>Event Over :(</h2>
+
+                {/* <div className={styles.box_sub_container}>
                     <div className={styles.box1}>
                         <h1>{days}</h1>
                     </div>
@@ -42,7 +44,7 @@ const EventSection = () => {
                         <h1>{minutes}</h1>
                     </div>
                     <h1>Minutes</h1>
-                </div>
+                </div> */}
             </div>
 
             <img src={EventBg} alt="About Image here" />
